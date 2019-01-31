@@ -1,0 +1,30 @@
+call plug#begin('~/vimplug-plugins')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+"Scrooloose NerdTree File Explorer
+Plug 'scrooloose/nerdtree'
+
+"Surround with tags
+Plug 'tpope/vim-surround'
+
+"Solarized Colorscheme for Vim
+Plug 'altercation/vim-colors-solarized'
+
+"Code Completion
+Plug 'valloric/youcompleteme'
+
+"Syntax Checker
+Plug 'scrooloose/syntastic'
+
+"Tab Completion
+Plug 'ervandew/supertab'
+
+"Git diff
+Plug 'airblade/vim-gitgutter'
+
+"Airline status bar
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
